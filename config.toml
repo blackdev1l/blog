@@ -1,0 +1,81 @@
+baseurl = "https://blackdev1l.com"
+title = "Cristian's blog"
+author = "Cristian Achille"
+# Shown in the side menu
+copyright = "&copy; 2016. All rights reserved."
+canonifyurls = true
+paginate = 10
+publishdir = "public"
+
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "A Hugo Theme"
+  brand = "Blackburn"
+  disqus = "blackdev1l"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "post"
+    url = "/post/"
+[social]
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  twitter = "_blackdev1l"
+  #gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
+  #facebook = "*"
+  #googleplus = "*"
+  #weibo = "*"
+  #tumblr = "*"
+
+  # SNS photo/video sharing
+  instagram = "blackdev1l"
+  flickr = "*"
+  #pinterest = "*"
+  #youtube = "*"
+  #vimeo = "*"
+  #vine = "*"
+  #slideshare = "*"
+
+  # SNS career oriented
+  #linkedin = "*"
+  #xing = "*"
+
+  # SNS news
+  reddit = "blackdev1l"
+  #hackernews = "*"
+
+  # Techie
+  github = "blackdev1l"
+  bitbucket = "blackdev1l"
+  #stackoverflow = "*"
+  #serverfault = "*"
+
+  # Gaming
+  steam = "blackuzzo"
+
+  # Music
+  lastfm = "blackdevil93"
+  #discogs = "*"
+
+  # Other
+  keybase = "blackdev1l"
