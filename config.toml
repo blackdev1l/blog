@@ -14,8 +14,8 @@ publishdir = "public"
 
 [params]
   # Shown in the home page
-  subtitle = "A Hugo Theme"
-  brand = "Blackburn"
+  subtitle = "my blog"
+  brand = "blackdev1l"
   disqus = "blackdev1l"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
