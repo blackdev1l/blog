@@ -1,4 +1,7 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:blackdev1l/blackdev1l.github.io.git
+	url = https://github.com/blackdev1l/blackdev1l.github.io.git
 	branch = master
+[submodule "themes/blackburn"]
+	path = themes/blackburn
+	url = https://github.com/yoshiharuyamashita/blackburn.git
