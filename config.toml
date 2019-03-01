@@ -16,7 +16,7 @@ theme = "blackburn"
 [params]
   # Shown in the home page
   subtitle = "my blog"
-  brand = "Cristian Achille"
+  brand = "Cristian"
   disqus = "blackdev1l"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
