@@ -1,4 +1,4 @@
-baseurl = "http://blog.dev1l.tech"
+baseurl = "https://achille.dev"
 title = "Cristian's blog"
 author = "Cristian Achille"
 # Shown in the side menu
@@ -16,7 +16,7 @@ theme = "blackburn"
 [params]
   # Shown in the home page
   subtitle = "my blog"
-  brand = "blackdev1l"
+  brand = "Cristian Achille"
   disqus = "blackdev1l"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
