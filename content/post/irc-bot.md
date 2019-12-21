@@ -10,6 +10,7 @@ Salve a tutti! Nelle settimane passate ho scritto un piccolo irc bot insieme a u
 
 
 ### cosa abbiamo implementato fin ora
+
 * !quote e affini
 * link parser in regex (rubato da stackoverflow) 
 * interfaccia per modularizzare il bot

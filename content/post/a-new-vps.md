@@ -6,11 +6,11 @@ slug = "a-new-vps"
 
 +++
 
-##HELLO WORLD! 
+## HELLO WORLD! 
 
 stanotte verso le 2 mi hanno risposto al ticket che ho creato riguardo l'impossibilità di connettermi a internet attraverso la vps, mi hanno detto che era un problema del firewall della serverfarm e ora è tutto O.K. , infatti ora sto scrivendo dalla mia nuovissima vps ! 
 nel post precedente avevo detto di averla pagata 35$ one time fee (cioè una volta per sempre) , per ora sembra andare discretamente, il ping è alto (200) ma per quello che devo farci io va più che bene. Teoricamente dovrei coprire i costi dopo 3 anni di utilizzo (costa 12$/year il modello che ho scelto io) .
-##Technical stuff
+## Technical stuff
 
 la vps gira su vmware , con le seguenti risorse:
 

@@ -77,7 +77,7 @@ Così ogni volta che premo submit manda i dati, attende che vengono parsati dal 
 Ma ora guardiamo cosa c'è sotto il "cofano". 
 
 
-##Back-end
+## Back-end
 
 Scrivere web server in go grazie alle sue librerie std è davvero una favola. Ci si impiega letteralmente poche righe di codice per poter avere un semplice webserver che mostra un Hello World. 
 direttamente dalla documentazione ufficiale: 
@@ -169,7 +169,7 @@ il tag `-` invece, omette ogni caso dal marshal quella variabile.
 Ci sarebbe molto altro da dire riguardo alle implementazioni, ma preferisco lasciare a voi il gusto di leggere il codice e imparare questo fantastico linguaggio. 
 
 
-##Resoconto
+## Resoconto
 
 Golang è bellissimo. Ti permette di scrivere codice in modo semplice e allo stesso tempo ordinato, con prestazioni elevatissime (ricordiamo che è un linguaggio compilato) , le librerie standard sono ottime, e ci sono [tool](https://golang.org/doc/cmd) di cui non vi ho parlato che vi semplificano di molto la vita.
 

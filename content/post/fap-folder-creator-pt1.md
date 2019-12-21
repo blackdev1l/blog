@@ -19,6 +19,7 @@ Principalmente lo script è suddiviso in 3 moduli:
 * Watch Thread per eventuali immagini uppate dopo l'avvio dello script fin quando non viene eliminato il thread (404)
 
 ### get_images()
+
 il primo punto è abbastanza semplice, anche grazie alla libreria a cui mi sono appoggiato, ho creato una funzione che riceve in input l'url del thread e ritorna la lista di url delle immagini a risoluzione originale (solo quelle e non le thumbnail)
 
 ```prettyprint

@@ -1,82 +1,69 @@
 baseurl = "https://achille.dev"
-title = "Cristian's blog"
-author = "Cristian Achille"
-# Shown in the side menu
-copyright = "&copy; 2016. All rights reserved."
-canonifyurls = true
-paginate = 10
-publishdir = "public"
-theme = "blackburn"
-
-
-[indexes]
-  tag = "tags"
-  topic = "topics"
+languageCode = "en-us"
+theme = "hello-friend-ng"
 
 [params]
-  # Shown in the home page
-  subtitle = "my blog"
-  brand = "Cristian"
-  disqus = "blackdev1l"
-  # CSS name for highlight.js
-  highlightjs = "androidstudio"
-  dateFormat = "02 Jan 2006, 15:04"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
+  # Metadata mostly used in document's head
+  description = "Cristian Achille"
+  keywords = "homepage, blog, science, informatics, development, programming"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "post"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/_blackdev1l"
+
+  [[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/blackdev1l"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/blackdev1l"
+    
+[languages]
+  [languages.en]
+    title = "Cristian Achille"
+    subtitle = "blog about programming"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "~/cristian"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+	# You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/post"
+
+# And you can even create generic menu
 [menu]
-  # Shown in the side menu.
   [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 0
-    identifier = "home"
-    url = "/"
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
   [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 1
-    identifier = "post"
-    url = "/post/"
-[social]
-  # Link your social networking accounts to the side menu
-  # by entering your username or ID.
-
-  # SNS microblogging
-  twitter = "_blackdev1l"
-  #gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
-  #facebook = "*"
-  #googleplus = "*"
-  #weibo = "*"
-  #tumblr = "*"
-
-  # SNS photo/video sharing
-  instagram = "blackdev1l"
-  flickr = "*"
-  #pinterest = "*"
-  #youtube = "*"
-  #vimeo = "*"
-  #vine = "*"
-  #slideshare = "*"
-
-  # SNS career oriented
-  #linkedin = "*"
-  #xing = "*"
-
-  # SNS news
-  reddit = "blackdev1l"
-  #hackernews = "*"
-
-  # Techie
-  github = "blackdev1l"
-  bitbucket = "blackdev1l"
-  #stackoverflow = "*"
-  #serverfault = "*"
-
-  # Gaming
-  steam = "blackuzzo"
-
-  # Music
-  lastfm = "blackdevil93"
-  #discogs = "*"
-
-  # Other
-  keybase = "blackdev1l"
+    identifier = "blog"
+    name       = "Blog"
+    url        = "content/posts"

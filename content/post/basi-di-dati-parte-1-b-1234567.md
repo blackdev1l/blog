@@ -19,6 +19,7 @@ entità e le caratteristiche delle istanze di associazione.
 ****
 
 ###Vincoli di Integrità
+
 * ogni istanza è un elemento in qualche classe definita
 * gli elementi di una classe sono dello stesso tipo, da diversi tra loro
 * Una classe contiene tutti e soli gli elementi che rappresentano entità dello stesso tipo

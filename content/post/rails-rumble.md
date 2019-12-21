@@ -16,6 +16,7 @@ Per la Rails Rumble il tema principale è stato l'utilizzo del web framework [Ru
 ho trovato il team su reddit, precisamente in /r/ruby (o /r/rails?) , 2 americani e un inglese, più o meno tutti sullo stesso livello di abilità, essendo io alle prime armi con Rails all'inizio della gara ho deciso di occuparmi del lato backend della web app. 
 
 ##Cosa abbiamo fatto:
+
 ###World Spotlight
 
 >A new way to explore the world we live in, making it feel just a little bit smaller as you explore countries on a world map stage. Data collected from Youtube, Flickr, Twitter and more is used to present a small snapshot of a countries current moment in digital space.
@@ -25,6 +26,7 @@ Il mio lavoro era quindi quello di fornire le informazioni sotto forma di dati, 
 
 
 **NB: I seguenti pezzi di codice sono stati scritti tra le 2 di notte e le 8 del mattino, di fretta e con solo la voglia di avere qualcosa di funzionante, saranno tutte quasi sicuramente soluzioni inefficienti, ma con solo 48h di tempo non potevo permettermi di pensare alla soluzione ottimale e/o ottimizare il codice.**
+
 ###Immagine in background
 prima di tutto ho creato una classe base così da poter snellire un pelino il codice, tutte le future classi ereditano da questa classe:
 
