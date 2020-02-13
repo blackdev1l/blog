@@ -3,5 +3,5 @@
 	url = https://github.com/yoshiharuyamashita/blackburn.git
 [submodule "public"]
 	path = public
-	url = https://github.com/blackdev1l/blackdev1l.github.io.git
+	url = git@github.com:blackdev1l/blackdev1l.github.io.git
 	branch = master
